@@ -7,8 +7,8 @@
     try {
         //code...
          // If you have not set database password on localhost then set empty.
-    // $con = mysqli_connect($servername,$username,$password,$database);
-    $con = new mysqli($servername,$username,$password,$database);
+     $con = mysqli_connect($servername,$username,$password,$database);
+    //$con = new mysqli($servername,$username,$password,$database);
     echo "connected";
     
     
